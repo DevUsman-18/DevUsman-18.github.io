@@ -7,7 +7,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #41B3A3
+	background-color: #41B3A3;
 
 }
 
@@ -29,8 +29,39 @@ a {
 	border: 3px black solid;
 	border-radius: 5px;
 	text-decoration: none;
-	color: black ;
-	
+	color: black ;	
+}
+
+main {
+	background-color: #E8A87C;
+}
+
+main section {
+	display: flex;
+}
+
+section {
+	width: 80%;
+	margin: 0 auto;
+	padding: 100px;
+}
+
+.picture {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	margin-left: 40px;
+}
+
+main section h4 {
+	font-size: 30px;
+}
+
+main section p {
+	font-size: 20px;
 }
 
 @media screen and (max-width: 480px) {
