@@ -1,7 +1,9 @@
 * {
-box-sizing: border-box; 
-font-family: 'Urbanist', sans-serif;
+	box-sizing: border-box; 
+	font-family: 'Urbanist', sans-serif;
 }
+
+/*NAV*/
 
 nav {
 	display: flex;
@@ -32,6 +34,8 @@ a {
 	color: black ;	
 }
 
+/*ABOUT ME*/
+
 main {
 	background-color: #E8A87C;
 }
@@ -41,7 +45,7 @@ main section {
 }
 
 section {
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 	padding: 100px;
 }
@@ -62,6 +66,30 @@ main section h4 {
 
 main section p {
 	font-size: 20px;
+}
+
+/*Projects*/
+
+.project1 {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+
+}
+
+.project2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+
+.project3 {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+
 }
 
 @media screen and (max-width: 480px) {
