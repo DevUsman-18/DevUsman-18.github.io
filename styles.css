@@ -1,0 +1,44 @@
+* {
+box-sizing: border-box; 
+font-family: 'Urbanist', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #41B3A3
+
+}
+
+.title {
+	margin: 10px;
+
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	
+}
+
+a {
+	margin: 10px;
+	padding: 10px;
+	border: 3px black solid;
+	border-radius: 5px;
+	text-decoration: none;
+	color: black ;
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+/*colors {
+	background-color: #E27D60 ;
+	background-color: #E8A87C;
+	background-color: #C38D9E ;
+	background-color: #41B3A3 ;
+}*/
