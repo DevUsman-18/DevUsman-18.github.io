@@ -17,16 +17,6 @@ nav {
 	display: none;
 }
 
-@media screen and (max-width: 760px) {
-	nav {
-		display: none;
-	}
-	
-	.mobile-nav {
-		display: block;
-	}
-}
-
 .title {
 	margin: 12px;
 
@@ -127,10 +117,57 @@ footer section{
 	border: none;
 }
 
-.topimg{
-
+.topimg {
+	width: 30px;
+	height: 30px;
 }
 
+/*Media queries*/
+@media screen and (max-width: 760px) {
+/*	NAV*/
+	nav {
+		display: none;
+	}
+	
+	.mobile-nav {
+		display: block;
+	}
+/*	ABOUT*/
+	main section {
+		display: block;
+		width: 80%;
+		padding: 50px;
+	}
+	
+	
+/*PROJECTS*/
+	.projects img {
+		width: 100px;
+		height:  75px;
+	}
+	
+	.projects {
+		width: 80%;
+		padding: 50px;
+	}
+	
+	.projects div {
+		display: block;
+		
+	}
+/*FOOTER*/
+	footer section {
+		padding: 10px;
+	}
+	
+/*TOP BUTTON*/
+	.topimg{
+		height: 20px;
+		width: 20px;
+	}
+	
+	
+}
 
 
 /*colors {
