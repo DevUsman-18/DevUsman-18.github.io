@@ -12,21 +12,31 @@
   
   <body>
 	  
-	  <!-- NAV BAR -->
-	  <nav>
-		  <div class="title"> 
+	  <!-- NAV BAR -->	  
+	  <nav class="nav">
+		  <div class="title nav" id="title"> 
 			  <h2>Mohammad Usman - Portfolio</h2>
 		  </div>
 		  
-		  <div class="nav-links">
+		  <div class="nav-links nav">
 	  <h4><a href="#main"> About me </a></h4>
-	  <h4><a href="#projects"> Projects </a></h4>
+	  <h4><a href="#project1"> Projects </a></h4>
 	  <h4><a href="#contact"> Contact me </a></h4>
   </div>
 	  </nav>
 	  
+      <!-- MOBILE NAV BAR -->
+	  <nav class="mobile-nav">  	
+		  <div>
+  			  <h3><a href="#">Menu</a><h3>
+  		</div>
+	  </nav>
+	
+	  
+	  
+	  
 	  <!-- ABOUT ME -->
-	  <main class="main">
+	  <main id="main">
 		  <section>
 			  
 		  <div class="picture">
@@ -43,10 +53,10 @@
 	  </main>
 	  
 	  <!-- PROJECTS -->
-	  <div class="background-projects">
+	  <div class="background-projects" id="projects">
 	   	<section class="projects">
 		   
-		   <div class="project1"> 
+		   <div class="project1" id="project1"> 
 			   <img src="https://placekeanu.com/200/150" alt="keanu again" />
 			   <aside>
 				   <h2>Project 1</h2>
@@ -81,7 +91,7 @@
 	  
 	  <!-- CONTACT  -->
 	  <footer>
-		  <section class="contact">
+		  <section id="contact">
 			  	<h3> Get in touch:  </h3>
 				<a href="#"> E-mail</a>
 				<a href="https://www.linkedin.com/in/mohammad-usman-492612143/" target="_blank"> LinkedIn </a>
@@ -89,12 +99,10 @@
 			</section>
 	  </footer>
 	  
-	  <div class="button-top">
-		<button>
-			<a href="#main"> 
-				<img src="./images/chevrons.png" /> 
+	  <div class="totop">
+			<a href="#title" class="totop"> 
+				<img src="./images/chevrons.png" width="30" height="30" class="topimg"/> 
 			</a>
-		</button>
 	  </div>
 	  
   </body>
