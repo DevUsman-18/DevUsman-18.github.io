@@ -14,7 +14,7 @@ nav {
 }
 
 .title {
-	margin: 10px;
+	margin: 12px;
 
 }
 
@@ -45,7 +45,7 @@ main section {
 }
 
 section {
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 	padding: 100px;
 }
@@ -69,28 +69,26 @@ main section p {
 }
 
 /*Projects*/
-
-.project1 {
+.background-projects {
+	background-color:#C38D9E  ;
+}
+.projects {
+	width: 60%;
+}
+.projects div {
 	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
+	padding: 15px;
+}
 
+.project1,.project3 {
+	flex-direction: row-reverse;
+	justify-content: space-around;
 }
 
 .project2 {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-start;
-
+	justify-content: space-around;
 }
 
-.project3 {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-
-}
 
 @media screen and (max-width: 480px) {
 	
