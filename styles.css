@@ -10,7 +10,7 @@ nav {
 	justify-content: space-between;
 	padding: 10px;
 	background-color: #41B3A3;
-
+	z-index: 6;
 }
 
 .title {
@@ -38,6 +38,7 @@ a {
 
 main {
 	background-color: #E8A87C;
+	z-index: 6;
 }
 
 main section {
@@ -70,7 +71,8 @@ main section p {
 
 /*Projects*/
 .background-projects {
-	background-color:#C38D9E  ;
+	background-color:#C38D9E;
+	z-index: 6;
 }
 .projects {
 	width: 60%;
@@ -89,7 +91,26 @@ main section p {
 	justify-content: space-around;
 }
 
+/*Footer*/
+footer {
+	z-index: 6;
+	background-color:#E27D60; 
+}
+footer section{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
 
+.button-top img {
+	width: 1000px;
+	z-index: 10;
+}
+
+.button-top {
+	position: fixed;
+	z-index: 10;
+}
 @media screen and (max-width: 480px) {
 	
 }
