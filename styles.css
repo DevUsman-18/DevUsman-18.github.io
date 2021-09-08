@@ -97,6 +97,9 @@ main section p {
 	justify-content: space-around;
 }
 
+.prj-img{
+	margin-left: 10px;
+}
 .prj2img {
 	margin-right: 10px;
 }
