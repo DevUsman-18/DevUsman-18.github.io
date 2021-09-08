@@ -10,7 +10,11 @@ nav {
 	justify-content: space-between;
 	padding: 10px;
 	background-color: #41B3A3;
+	z-index: 6;
+}
 
+.mobile-nav {
+	display: none;
 }
 
 .title {
@@ -34,10 +38,13 @@ a {
 	color: black ;	
 }
 
+
+
 /*ABOUT ME*/
 
 main {
 	background-color: #E8A87C;
+	z-index: 6;
 }
 
 main section {
@@ -70,7 +77,8 @@ main section p {
 
 /*Projects*/
 .background-projects {
-	background-color:#C38D9E  ;
+	background-color:#C38D9E;
+	z-index: 6;
 }
 .projects {
 	width: 60%;
@@ -89,13 +97,128 @@ main section p {
 	justify-content: space-around;
 }
 
-
-@media screen and (max-width: 480px) {
-	
+.prj-img{
+	margin-left: 10px;
 }
-/*colors {
-	background-color: #E27D60 ;
-	background-color: #E8A87C;
-	background-color: #C38D9E ;
-	background-color: #41B3A3 ;
-}*/
+.prj2img {
+	margin-right: 10px;
+}
+/*Footer*/
+footer {
+	z-index: 6;
+	background-color:#E27D60; 
+}
+footer section{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+
+.footer-img {
+	width: 25px;
+	height: 25px;
+}
+/*Button*/
+
+.totop {
+	position: fixed;
+	bottom: 7%;
+	right: 3%;
+	border: none;
+}
+
+.topimg {
+	width: 30px;
+	height: 30px;
+}
+
+/*Media queries mid screen*/
+@media screen and (min-width: 760px) and (max-width: 1100px) {
+/*	ABOUT*/
+	main section {
+		display: flex;
+		width: 70%;
+		padding: 5px;
+	}
+/*PROJECTS*/
+	.projects {
+		width: 80%;
+		padding: 30px;
+	}
+	.projects div {
+		display: flex;
+		padding: 20px;
+	}
+	
+	.projects img {
+		width: 150px;
+		height:  110px;
+	}
+	
+
+/*FOOTER*/
+	footer section {
+		padding: 10px;
+	}
+	
+	.footer-img {
+		width: 22px;
+		height: 22px;
+	}
+/*TOP BUTTON*/
+	.topimg{
+		height: 23px;
+		width: 23px;
+	}
+}
+
+/*Media queries small screen*/
+@media screen and (max-width: 759px) {
+/*	NAV*/
+	nav {
+		display: none;
+	}
+	
+	.mobile-nav {
+		display: block;
+	}
+	
+/*	ABOUT*/
+	main section {
+		display: block;
+		width: 70%;
+		padding: 50px;
+	}
+	
+/*PROJECTS*/
+	.projects img {
+		width: 100px;
+		height:  75px;
+	}
+	
+	.projects {
+		width: 80%;
+		padding: 50px;
+	}
+	
+	.projects div {
+		display: block;
+		
+	}
+	
+/*FOOTER*/
+	footer section {
+		padding: 10px;
+	}
+	
+	.footer-img {
+		width: 20px;
+		height: 20px;
+	}
+	
+/*TOP BUTTON*/
+	.topimg{
+		height: 20px;
+		width: 20px;
+	}
+}
