@@ -98,17 +98,7 @@ main section p {
 	padding: 15px;
 }
 
-/*.projects:nth-child(odd) {
-	margin-bottom: 10px;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	box-shadow:
-	  0 1.5px 1px rgba(0, 0, 0, 0.085),
-	  0 4.6px 3.4px rgba(0, 0, 0, 0.151),
-	  0 12px 15px rgba(0, 0, 0, 0.3);
-}*/
-
-.project1,.project3 {
+.project:nth-child(odd) {
 	margin-bottom: 10px;
 	flex-direction: row-reverse;
 	justify-content: space-around;
