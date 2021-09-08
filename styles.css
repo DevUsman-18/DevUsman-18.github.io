@@ -108,6 +108,10 @@ main section p {
 .prj2img {
 	margin-right: 10px;
 }
+
+.prj-link {
+	margin: 0;
+}
 /*Footer*/
 footer {
 	z-index: 6;
@@ -166,6 +170,9 @@ footer section{
 		height:  110px;
 	}
 	
+	.prj-link {
+		margin: 0;
+	}
 
 /*FOOTER*/
 	footer section {
@@ -203,8 +210,8 @@ footer section{
 	
 /*PROJECTS*/
 	.projects img {
-		width: 100px;
-		height:  75px;
+		width: 150px;
+		height:  150px;
 	}
 	
 	.projects {
@@ -213,10 +220,20 @@ footer section{
 	}
 	
 	.projects div {
-		display: block;
-		
+		display: block;	
 	}
 	
+	.prj-img{
+		margin-left: 0;
+	}
+	
+	.prj2img {
+		margin-right: 10px;
+	}
+	
+	.prj-link {
+		margin: 0;
+	}
 /*FOOTER*/
 	footer section {
 		padding: 10px;
