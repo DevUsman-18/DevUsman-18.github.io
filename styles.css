@@ -63,6 +63,11 @@ section {
 	align-items: center;
 }
 
+.picture-me {
+	width: 200px;
+	height: 200px;
+}
+
 article {
 	margin-left: 40px;
 }
@@ -140,6 +145,12 @@ footer section{
 		width: 70%;
 		padding: 5px;
 	}
+	
+	.picture-me {
+		width: 150px;
+		height:150px;
+	}
+
 /*PROJECTS*/
 	.projects {
 		width: 80%;
