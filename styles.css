@@ -97,6 +97,9 @@ main section p {
 	justify-content: space-around;
 }
 
+.prj2img {
+	margin-right: 10px;
+}
 /*Footer*/
 footer {
 	z-index: 6;
