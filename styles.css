@@ -98,7 +98,7 @@ main section p {
 	padding: 15px;
 }
 
-.project:nth-child(odd) {
+.project-odd:nth-child(odd) {
 	margin-bottom: 10px;
 	flex-direction: row-reverse;
 	justify-content: space-around;
@@ -108,7 +108,7 @@ main section p {
 	  0 12px 15px rgba(0, 0, 0, 0.3);
 }
 
-.project2 {
+.project-even:nth-child(even) {
 	justify-content: space-around;
 	box-shadow:
 	  0 1.5px 1px rgba(0, 0, 0, 0.085),
@@ -116,11 +116,12 @@ main section p {
 	  0 12px 15px rgba(0, 0, 0, 0.3);
 }
 
-.prj-img{
+.project-odd img {
 	margin-left: 10px;
 	border-radius: 7px;
 }
-.prj2img {
+
+.project-even img {
 	margin-right: 10px;
 	border-radius: 7px;
 }
@@ -128,6 +129,7 @@ main section p {
 .prj-link {
 	margin-left: 0;
 }
+
 aside {
 	margin-bottom: 10px;
 }
@@ -242,18 +244,15 @@ footer section{
 	.projects div {
 		display: block;	
 	}
-	
-	.prj-img{
-		margin-left: 0;
-	}
-	
-	.prj2img {
-		margin-right: 10px;
+		
+	.project-odd img {
+			margin-left: 0;
 	}
 	
 	.prj-link {
 		margin: 0;
 	}
+	
 /*FOOTER*/
 	footer section {
 		padding: 10px;
