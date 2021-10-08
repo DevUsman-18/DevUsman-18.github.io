@@ -62,6 +62,9 @@ a {
 	color: #000000 ;	
 }
 
+.nav-links a:hover {
+	background-color: #FFD700;
+}
 
 
 /*ABOUT ME*/
