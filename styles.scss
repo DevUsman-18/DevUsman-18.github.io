@@ -87,7 +87,7 @@ main section {
 }
 
 section {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   padding: 100px;
 }
@@ -96,12 +96,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  img {
-    width: 200px;
-    height: 200px;
-    border-radius: 7px;
 }
+
+.picture img {
+  object-fit: scale-down;
+    border-radius: 7px;
 }
 
 article {
@@ -148,6 +147,8 @@ main section p {
 }
 
 .project-odd img {
+  width: 200px;
+  height: 200px;
   margin-left: 10px;
   border-radius: 7px;
 }
@@ -155,6 +156,8 @@ main section p {
 .project-even img {
   margin-right: 10px;
   border-radius: 7px;
+  width: 200px;
+  height: 200px;
 }
 
 .prj-link {
@@ -204,10 +207,10 @@ footer {
 		padding: 5px;
 	}
 
-	.picture img {
-		width: 150px;
-		height:150px;
-	}
+	//.picture img {
+	//	width: 150px;
+	//	height:150px;
+	//}
 
 /*PROJECTS*/
 	.projects {
