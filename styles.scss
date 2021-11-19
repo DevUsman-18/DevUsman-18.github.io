@@ -147,8 +147,6 @@ main section p {
 }
 
 .project-odd img {
-  width: 200px;
-  height: 200px;
   margin-left: 10px;
   border-radius: 7px;
 }
@@ -156,12 +154,10 @@ main section p {
 .project-even img {
   margin-right: 10px;
   border-radius: 7px;
-  width: 200px;
-  height: 200px;
 }
 
 .prj-link {
-  margin-left: 0;
+  //margin-left: 0;
 }
 
 aside {
