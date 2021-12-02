@@ -8,7 +8,6 @@ $mobileHover = #FFD700;
 }
 
 /*NAV*/
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -18,9 +17,9 @@ nav {
 
 .mobile-nav {
   display: none;
-  position: fixed;
-  top: 20px;
-  left: 10px;
+  //position: fixed;
+  //top: 20px;
+  //left: 10px;
   background-color: $mainColor;
 
   a {
@@ -30,10 +29,8 @@ nav {
   }
 }
 
-
 .menu-btn {
   display: none;
-  /*display: flex;*/
   flex-direction: column;
 
   a {
@@ -77,7 +74,6 @@ a {
 
 
 /*ABOUT ME*/
-
 main {
   background-color: $mainColor;
 }
@@ -174,8 +170,8 @@ footer {
   width: 25px;
   height: 25px;
 }
-/*Button*/
 
+/*Button*/
 .totop {
   position: fixed;
   bottom: 7%;
@@ -187,7 +183,6 @@ footer {
     height: 30px;
 }
 }
-
 
 /*Media queries mid screen*/
 @media screen and (min-width: 700px) and (max-width: 1100px) {
@@ -248,7 +243,6 @@ footer {
 	}
 
 /*PROJECTS*/
-
 	.projects {
 		width: 80%;
 		padding: 50px;
